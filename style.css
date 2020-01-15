@@ -4,7 +4,7 @@ body {
   font-family: Montserrat;
 }
 
-.download-phone {
+.download{
   display: none;
 }
 
@@ -258,17 +258,6 @@ hr {
   }
   .firstB {
     margin-top: 80px;
-  }
-  .download-phone {
-    display: inline;
-    text-align: center;
-    flex: auto;
-    background: #22313f;
-    color: white !important;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 5px;
-    width: 100%;
   }
 }
 
