@@ -296,8 +296,8 @@ hr {
   }
 }
 
-.facebook-link:hover {
-  color: #3b5998;
+.whatsapp-link:hover {
+  color: #00ff00;
 }
 .github-link:hover {
   color: #000333;
@@ -312,15 +312,6 @@ hr {
 
 .right-exp {
   text-align: center;
-}
-
-#bg-sol {
-  background-image: url(./images/logo_solutioninn.png);
-  background-position: right;
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: 2px;
-  background-size: 300px;
 }
 
 .company-btn-download {
