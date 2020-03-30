@@ -164,8 +164,6 @@ body {
     display: none;
   }
   .eduentry {
-    border-bottom: solid;
-    border-bottom: 1px solid;
     padding-bottom: 50px;
     margin-top: 50px;
     border-bottom-color: #979393;
