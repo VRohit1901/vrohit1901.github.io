@@ -38,7 +38,6 @@ body {
   border-radius: 15px;
   padding: 50px;
   -webkit-transition: border-radius ease 0.5s;
-  /* Safari */
   transition: border-radius ease 0.5s;
 }
 
