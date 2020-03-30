@@ -145,11 +145,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .container-fluid {
-    max-width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
-  }
+  
   .edu {
     text-align: center;
   }
@@ -164,6 +160,8 @@ body {
     display: none;
   }
   .eduentry {
+    border-bottom: solid;
+    border-bottom: 1px solid;
     padding-bottom: 50px;
     margin-top: 50px;
     border-bottom-color: #979393;
