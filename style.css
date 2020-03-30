@@ -107,69 +107,6 @@ body {
   padding: 8px;
   font-size: 14px;
 }
-@media screen and (max-width: 1200px) {
-  .contact-info {
-    max-width: 875px;
-  }
-}
-@media screen and (max-width: 992px) {
-  .contact-info {
-    max-width: 720px;
-    font-size: 11px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .contact-info {
-    max-width: 390px;
-    font-size: 16px;
-    text-align: left;
-    padding-left: 50px !important;
-  }
-}
-
-@media (max-width: 1024px) {
-  #circle,
-  #circle-dim {
-    height: 8px;
-    width: 8px;
-  }
-  .langs {
-    font-size: 15px;
-  }
-  .interests {
-    padding: 8px;
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 768px) {
-  .container-fluid {
-    max-width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-  .edu {
-    text-align: center;
-  }
-  .marks {
-    border: none;
-  }
-  .container {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  hr {
-    display: none;
-  }
-  .eduentry {
-    border-bottom: solid;
-    border-bottom: 1px solid;
-    padding-bottom: 50px;
-    margin-top: 50px;
-    border-bottom-color: #979393;
-  }
-}
 
 h1 {
   font-weight: 900;
@@ -233,37 +170,6 @@ hr {
   z-index: 1030;
   background-color: aliceblue !important;
   box-shadow: 0px 3px 20px 0px #00000059;
-}
-
-@media (max-width: 584px) {
-  .download-button {
-    display: none;
-  }
-  #introm {
-    display: none;
-  }
-  #port {
-    display: none;
-  }
-  .navbar-brand {
-    margin: auto;
-  }
-  .nav {
-    margin: auto;
-    flex-flow: unset;
-  }
-  .container {
-    border-radius: 5px;
-  }
-  .firstB {
-    margin-top: 80px;
-  }
-}
-
-@media (max-width: 387px) {
-  ul > li:first-of-type {
-    display: none;
-  }
 }
 
 @-webkit-keyframes highlight {
