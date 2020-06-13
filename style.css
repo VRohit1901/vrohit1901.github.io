@@ -161,7 +161,6 @@ body {
   }
   .eduentry {
     border-bottom: solid;
-
     border-bottom: 1px solid;
     padding-bottom: 50px;
     margin: 50px auto;
@@ -191,38 +190,6 @@ hr {
   border-top: 1px solid rgba(255, 255, 255, 0.24);
 }
 
-.low-opacity {
-  opacity: 0.4;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: #008cba;
-}
-
-.ovtext {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.portfBox:hover .overlay {
-  opacity: 1;
-}
-
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
@@ -240,9 +207,6 @@ hr {
   #introm {
     display: none;
   }
-  #port {
-    display: none;
-  }
   .navbar-brand {
     margin: auto;
   }
@@ -253,9 +217,6 @@ hr {
   .container {
     border-radius: 5px;
   }
-  .firstB {
-    margin-top: 80px;
-  }
   .download-phone {
     display: inline;
     text-align: center;
@@ -265,7 +226,6 @@ hr {
     padding-top: 6px;
     padding-bottom: 6px;
     border-radius: 5px;
-    width: 100%;
   }
 }
 
@@ -295,20 +255,6 @@ hr {
 }
 .linkedin-link:hover {
   color: #0077b5;
-}
-
-.company-logo {
-  padding: 25px;
-}
-
-.right-exp {
-  text-align: center;
-}
-
-.company-btn-download {
-  padding: 8px;
-  border-radius: 6px;
-  text-decoration: none;
 }
 
 .badge-primary:hover {
