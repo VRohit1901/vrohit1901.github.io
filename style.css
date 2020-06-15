@@ -146,6 +146,10 @@ body {
 
 @media (max-width: 768px) {
 
+  .download-button{
+    display: none;
+  }
+
   .edu {
     text-align: center;
   }
@@ -215,16 +219,6 @@ hr {
     flex-flow: unset;
   }
   .container {
-    border-radius: 5px;
-  }
-  .download-phone {
-    display: inline;
-    text-align: center;
-    flex: auto;
-    background: #22313f;
-    color: white !important;
-    padding-top: 6px;
-    padding-bottom: 6px;
     border-radius: 5px;
   }
 }
